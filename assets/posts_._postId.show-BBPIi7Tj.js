@@ -1,0 +1,1 @@
+import{b as e,j as s}from"./index--LrxdSCc.js";const i=function(){const t=e.useLoaderData();return s.jsxs("div",{children:[s.jsxs("div",{className:"space-y-2",children:[s.jsx("h4",{className:"text-xl font-bold underline",children:t.title}),s.jsx("div",{className:"text-sm",children:t.body})]}),s.jsx("div",{})]})};export{i as component};
