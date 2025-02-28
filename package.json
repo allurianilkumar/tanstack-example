@@ -6,9 +6,11 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "dev": "vite --port=3001",
-    "generate": "tanstack-router-generate",
     "build": "vite build",
     "serve": "vite preview",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite"
   },
   "devDependencies": {
@@ -19,6 +21,7 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.9",
+    "gh-pages": "^6.1.1",
     "vite": "^6.0.3"
   },
   "dependencies": {
